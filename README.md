@@ -18,3 +18,13 @@ A structured set of computerized data with accessible interface
 4. There is a standard for how SQL should work
 
 
+### Creating Databases
+Command: CREATE DATABASE <name>;
+Show Databases: SHOW DATABASES;
+
+
+## Important Tips
+
+`mysql -u root -p`
+
+you dont have to capitalize commands, but people do to show what comes from sql and what comes from the admin
