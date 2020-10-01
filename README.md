@@ -18,9 +18,12 @@ A structured set of computerized data with accessible interface
 4. There is a standard for how SQL should work
 
 
-### Creating Databases
+### Creating Databases and Tables Lecture
 Command: CREATE DATABASE <name>;
 Show Databases: SHOW DATABASES;
+Dropping Databases: DROP DATABASE <name>;
+Using Databases (sort of like cd into them): USE <name>;
+Find the current DB you're using: SELECT database();
 
 
 ## Important Tips
