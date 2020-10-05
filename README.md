@@ -29,6 +29,22 @@ Using Databases (sort of like cd into them): USE <name>;
 
 Find the current DB you're using: SELECT database();
 
+Create table: CREATE TABLE cats (must always be plural)
+
+Examples:
+
+CREATE TABLE tablename
+	(
+		column_name data_type,
+		column_name data_type
+	);
+
+CREATE TABLE cats
+	(
+		name VARCHAR(100),
+		age INT
+	);
+
 ### Tables
 a db is just a bunch of tables --- relational db
 
