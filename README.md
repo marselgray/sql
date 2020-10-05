@@ -45,6 +45,10 @@ CREATE TABLE cats
 		age INT
 	);
 
+Showing tables: SHOW tables; SHOW COLUMBS from <name>; DESC <name>
+
+Deleting Tables: DROP TABLE <tablename>
+
 ### Tables
 a db is just a bunch of tables --- relational db
 
