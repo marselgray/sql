@@ -5,11 +5,13 @@ A structured set of computerized data with accessible interface
 1. A collection of data
 2. Has a method for accessing and manipulating that data
 
+
 ### List of Common Databases
 1. Postgre SQL
 2. Oracle Database
 3. MySQL
 4. SOLite
+
 
 ### SQL vs MySQL
 1. SQL - Structured Query Language
@@ -33,21 +35,26 @@ Create table: CREATE TABLE cats (must always be plural)
 
 Examples:
 
+```
 CREATE TABLE tablename
 	(
 		column_name data_type,
 		column_name data_type
 	);
+```
 
+```
 CREATE TABLE cats
 	(
 		name VARCHAR(100),
 		age INT
 	);
+```
 
 Showing tables: SHOW tables; SHOW COLUMBS from <name>; DESC <name>
 
 Deleting Tables: DROP TABLE <tablename>
+
 
 ### Tables
 a db is just a bunch of tables --- relational db
@@ -64,9 +71,18 @@ Datatypes:
 3. Date types
 
 
+## Inserting Data Lectures
+Inset:
+
+INSERT INTO cats
+
+order matters, for example if INSERT INTO cats(age, name);
+values should be (12, 'Victoria');
+
+
+
 
 ### Important Tips
-
 `mysql -u root -p`
 
 you dont have to capitalize commands, but people do to show what comes from sql and what comes from the admin
