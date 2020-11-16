@@ -79,6 +79,8 @@ INSERT INTO cats
 order matters, for example if INSERT INTO cats(age, name);
 values should be (12, 'Victoria');
 
+## Warnings
+SHOW WARNINGS;
 
 
 
